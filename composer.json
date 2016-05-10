@@ -1,5 +1,11 @@
 {
   "autoload": {
-    "psr-4": {"src\\": "src/"}
+    "psr-4": {"src\\": "src/","myNameSpace\\":"myapp/"},
+    "files":[
+
+      "config/database.php",
+      "config/MyDB.php"
+    ]
   }
+
 }

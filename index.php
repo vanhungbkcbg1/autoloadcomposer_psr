@@ -11,5 +11,9 @@ $test->String();
 
 //include
 
-$config=new \src\myframework\Config();
 
+$test=new myNameSpace\test();
+$test->doSomething();
+
+$db=new \Config\MyDB();
+$db->myfunction();
